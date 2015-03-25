@@ -1,3 +1,3 @@
-opsworks-bower Cookbook
+opsworks_bower Cookbook
 ===============================
-Installs Bower on AWS Rails App Server stacks.
+Installs bower on opsworks rails stacks.
