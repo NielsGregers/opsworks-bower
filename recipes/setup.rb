@@ -7,7 +7,6 @@ node[:deploy].each do |application, deploy|
   Chef::Log.debug('Installing bower...')
 
   execute 'install bower' do
-    cwd "#{deploy[:current_path]}"
     command 'npm install -g bower'
     user 'root'
   end
