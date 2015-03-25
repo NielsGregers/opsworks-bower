@@ -4,8 +4,6 @@ node[:deploy].each do |application, deploy|
     next
   end
 
-  Chef::Log.debug('Installing bower...')
-
   execute 'install bower' do
     command 'npm install -g bower'
     user 'root'
