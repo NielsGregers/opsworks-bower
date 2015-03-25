@@ -1,0 +1,7 @@
+name             'opsworks-bower'
+maintainer       'Leonid Beder'
+maintainer_email 'leonid.beder@gmail.com'
+license          'All rights reserved'
+description      'Installs Bower on an OpsWorks Rails stack'
+long_description 'Installs Bower on an OpsWorks Rails stack'
+version          '0.0.1'
